@@ -934,8 +934,8 @@
 						data-elementor-settings="[]">
 						<div class="elementor-inner">
 							<div class="elementor-section-wrap">
-								<section style="background: url(img/header_bg.jpeg) center no-repeat ;background-size: cover;"
-									class="elementor-section elementor-top-section elementor-element elementor-element-yooivlw elementor-section-height-min-height elementor-section-items-top elementor-section-boxed elementor-section-height-default"
+								<section  
+									class="bg_header-main elementor-section elementor-top-section elementor-element elementor-element-yooivlw elementor-section-height-min-height elementor-section-items-top elementor-section-boxed elementor-section-height-default"
 									data-id="yooivlw" data-element_type="section"
 									data-settings='{"background_background":"video"}'>
 									<div class="elementor-container elementor-column-gap-default">
@@ -972,10 +972,30 @@
 																					href="#">
 																					Explore </a> -->
 										<div class="price"><div class="price__new al-cost" style="color: white; margin: 10px 0;">499 RON</div><div class="price__old ">998 RON</div></div>
-																				<a class="btn-2 btn th-btn btn-standard-primary"
+																				<!-- <a class="btn-2 btn th-btn btn-standard-primary"
 																					href="#">
-																					COMANDĂ O DRONĂ</a>
+																					COMANDĂ O DRONĂ</a> -->
 																			</div>
+																			<form method="POST" action="api.php" class="feed al-form">
+																				<select name="country" class="al-country" style="display:none"></select>
+																				<div class="input-wrapper">
+																					<input type="text" name="name" class="feed__input" placeholder="Nume si prenume" required="required" id="name"><label for="name"></label>
+																				</div>
+																				<div class="input-wrapper">
+																					<input type="tel" name="phone" class="feed__input" placeholder="Telefon de contact" required="" id="phone"><label for="phone"></label>
+																				</div>
+																				<div class="th-cta-btn" >
+																								
+																					<a class="btn-1 btn th-btn btn-ghost-light"style="border: 3px solid #045089;    color: #045089;
+					
+																					"
+																						href="#"><i class="fa-solid fa-cart-shopping" style="    color: #045089;font-size: 26px;font-weight: 600;
+																						;"></i>  
+																						COMANDA ACUM</a>
+																						
+																				</div>
+																				
+																			</form>
 																		</div>
 																	</div>
 
@@ -2629,40 +2649,68 @@
 									</div>
 								</section>
 								
-								<section
-									class="elementor-section elementor-top-section elementor-element elementor-element-xponkqc elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-									data-id="xponkqc" data-element_type="section"
-									data-settings='{"background_background":"classic"}' style="background-image: url(img/4-bg.png);background-size: cover; position: relative;">
-									<img src="img/drz.png" alt="dron" style="position: absolute;width: auto; height: 100%;  object-fit: cover;">
-									<section
-									class="elementor-section elementor-top-section elementor-element elementor-element-00cdb44 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-									data-id="00cdb44" data-element_type="section" style="background-color: transparent">
+								<section  
+									class="bg_header-main elementor-section elementor-top-section elementor-element elementor-element-yooivlw elementor-section-height-min-height elementor-section-items-top elementor-section-boxed elementor-section-height-default"
+									data-id="yooivlw" data-element_type="section"
+									data-settings='{"background_background":"video"}'>
 									<div class="elementor-container elementor-column-gap-default">
 										<div class="elementor-row">
-											<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-13aa487"
-												data-id="13aa487" data-element_type="column">
+											<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dfqvxaa"
+												data-id="dfqvxaa" data-element_type="column">
 												<div class="elementor-column-wrap elementor-element-populated">
 													<div class="elementor-widget-wrap">
-														<div class="elementor-element elementor-element-8e0c2fc elementor-view-default elementor-position-top elementor-invisible elementor-widget elementor-widget-themo-service-block"
-															data-id="8e0c2fc" data-element_type="widget"
-															data-settings='{"_animation":"rotateIn"}'
-															data-widget_type="themo-service-block.default">
+														<div class="elementor-element elementor-element-whvcecs elementor-widget elementor-widget-spacer"
+															data-id="whvcecs" data-element_type="widget"
+															data-widget_type="spacer.default">
 															<div class="elementor-widget-container">
-																<div class="th-service-block-w">
-																	<div
-																		class="elementor-icon-box-wrapper th-show-icon">
-																		<!-- <div
-																			class="elementor-icon-box-icon th-icon-size-md">
-																			<span class="elementor-icon ">
-																				<i class="th-linea icon-basic-star"></i>
-																			</span>
-																		</div> -->
+																<div class="elementor-spacer">
+																	<div class="elementor-spacer-inner"></div>
+																</div>
+															</div>
+														</div>
+														<div class="elementor-element elementor-element-zttczvl elementor-view-default elementor-position-top elementor-invisible elementor-widget elementor-widget-themo-header"
+															data-id="zttczvl" data-element_type="widget"
+															data-settings='{"_animation":"fadeInUp"}'
+															data-widget_type="themo-header.default">
+															<div class="elementor-widget-container">
+																<div class="th-header-wrap">
+																	<div class="elementor-icon-box-wrapper ">
 																		<div class="elementor-icon-box-content">
-																			<h2 class="elementor-icon-box-title">
-																				<span style="color:#045089;">CUM SE COMANDĂ TACTICAL DRONE PRO CU O REDUCERE DE 50%?</span>
-																			</h2>
-																			<!-- <p class="elementor-icon-box-description">
-																			</p> -->
+																			<div class="skid"><div>50<span class="percent">%</span></div><div class="sale">REDUCERE</div></div>
+																			<p  class="text-col-white elementor-icon-box-description fs60">
+																				XTACTICAL DRONE</p>
+                                        <p class="text-col-white">TOTUL PENTRU FOTOGRAFII
+										ÎN TOATE CONDIȚIILE</p>
+
+																			<div class="th-btn-wrap">
+																				<!-- <a class="btn-1 btn th-btn btn-ghost-dark"
+																					href="#">
+																					Explore </a> -->
+										<div class="price"><div class="price__new al-cost" style="color: white; margin: 10px 0;">499 RON</div><div class="price__old ">998 RON</div></div>
+																				<!-- <a class="btn-2 btn th-btn btn-standard-primary"
+																					href="#">
+																					COMANDĂ O DRONĂ</a> -->
+																			</div>
+																			<form method="POST" action="api.php" class="feed al-form">
+																				<select name="country" class="al-country" style="display:none"></select>
+																				<div class="input-wrapper">
+																					<input type="text" name="name" class="feed__input" placeholder="Nume si prenume" required="required" id="name"><label for="name"></label>
+																				</div>
+																				<div class="input-wrapper">
+																					<input type="tel" name="phone" class="feed__input" placeholder="Telefon de contact" required="" id="phone"><label for="phone"></label>
+																				</div>
+																				<div class="th-cta-btn" >
+																								
+																					<a class="btn-1 btn th-btn btn-ghost-light"style="border: 3px solid #045089;    color: #045089;
+					
+																					"
+																						href="#"><i class="fa-solid fa-cart-shopping" style="    color: #045089;font-size: 26px;font-weight: 600;
+																						;"></i>  
+																						COMANDA ACUM</a>
+																						
+																				</div>
+																				
+																			</form>
 																		</div>
 																	</div>
 
@@ -2672,220 +2720,6 @@
 														</div>
 													</div>
 												</div>
-											</div>
-										</div>
-									</div>
-								</section>
-									<div class="elementor-container elementor-column-gap-default">
-										<div class="elementor-row">
-											<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-nwsidzp elementor-invisible"
-												data-id="nwsidzp" data-element_type="column"
-												data-settings='{"animation":"rotateInDownRight"}'>
-												<!-- <div class="elementor-column-wrap elementor-element-populated">
-													<div class="elementor-widget-wrap">
-														<div class="elementor-element elementor-element-f28ba45 elementor-button-success elementor-align-center elementor-widget elementor-widget-button"
-															data-id="f28ba45" data-element_type="widget"
-															data-widget_type="button.default">
-															<div class="elementor-widget-container">
-																<div class="elementor-button-wrapper">
-																	<a href="https://techmsx.com/intl_4/order.php?prod=tacticairdrone&net=1347&aff=tad%7Cvac21"
-																		class="elementor-button-link elementor-button elementor-size-xl elementor-animation-buzz"
-																		role="button" id="BuyHere">
-																		<span class="elementor-button-content-wrapper">
-																			<span
-																				class="elementor-button-icon elementor-align-icon-left">
-																				<i class="fa fa-credit-card"
-																					aria-hidden="true"></i>
-																			</span>
-																			<span class="elementor-button-text">Buy Here
-																				- 50% Off</span>
-																		</span>
-																	</a>
-																</div>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-3d55a20 elementor-widget elementor-widget-text-editor"
-															data-id="3d55a20" data-element_type="widget"
-															data-widget_type="text-editor.default">
-															<div class="elementor-widget-container">
-																<div class="elementor-text-editor elementor-clearfix">
-																	<p>* <a class="lar-automated-link"
-																			href="https://techmsx.com/intl/order2.php?prod=tacticairdrone&net=1347&aff=tad"
-																			924 rel="nofollow" target="_self">Tactic AIR
-																			Drone</a> is on a great sale right now. Get
-																		yours before stock runs out</p>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div> -->
-												<div class="foot__cont">
-													<p><a name="8"></a></p>
-													<!-- <h2>CUM SE COMANDĂ TACTICAL DRONE PRO CU O REDUCERE DE 50%?</h2> -->
-													<p style="color:#045089; font-size: 26px;">Acum există o ofertă specială</p>
-													<p style="color:#045089;font-size: 26px;">Puteți comanda Tactical Drone PRO doar la <em class="al-cost">499 RON</em> în loc de <span class="al-cost-promo">998 RON</span>.</p>
-													<p><span style="color:#045089;font-size: 26px;">Completați formularul de mai jos cu numele și numărul dvs. de telefon, iar operatorul nostru vă va suna în curând.</span></p>
-												</div>
-											</div>
-											<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4fa121b elementor-invisible"
-												data-id="4fa121b" data-element_type="column"
-												data-settings='{"animation":"rotateInDownLeft"}' style="margin: 10px 0">
-												<div class="foot__bottom">
-													<div class="foot__col">
-														<form method="POST" action="api.php" class="feed al-form">
-															<select name="country" class="al-country" style="display:none"></select>
-															<div class="input-wrapper">
-																<input type="text" name="name" class="feed__input" placeholder="Nume si prenume" required="required" id="name"><label for="name"></label>
-															</div>
-															<div class="input-wrapper">
-																<input type="tel" name="phone" class="feed__input" placeholder="Telefon de contact" required="" id="phone"><label for="phone"></label>
-															</div>
-															<div class="th-cta-btn" >
-																			
-																<a class="btn-1 btn th-btn btn-ghost-light"style="border: 1px solid #045089;    color: #045089;
-
-																"
-																	href="#"><i class="fa-solid fa-cart-shopping" style="    color: #045089;font-size: 26px;
-																	;"></i>  
-																	COMANDA ACUM</a>
-
-															</div>
-														</form>
-													</div>
-												</div>
-												<!-- <div class="elementor-column-wrap elementor-element-populated">
-													<div class="elementor-widget-wrap">
-														<div class="elementor-element elementor-element-sibdbtt elementor-position-left elementor-view-default elementor-invisible elementor-widget elementor-widget-themo-service-block"
-															data-id="sibdbtt" data-element_type="widget"
-															data-settings='{"_animation":"fadeInDown","_animation_delay":100}'
-															data-widget_type="themo-service-block.default">
-															<div class="elementor-widget-container">
-																<div class="th-service-block-w">
-																	<div
-																		class="elementor-icon-box-wrapper th-show-icon">
-																		<div
-																			class="elementor-icon-box-icon th-icon-size-sm">
-																			<span class="elementor-icon ">
-																				<i
-																					class="th-trip travelpack-clock-time"></i>
-																			</span>
-																		</div>
-																		<div class="elementor-icon-box-content">
-																			<h3 class="elementor-icon-box-title">
-																				<span>1 Year Warranty</span>
-																			</h3>
-																			<p class="elementor-icon-box-description">
-																				Ease your mind with 12 months warranty
-																				coverage on your drone in case of
-																				accidental damage.
-
-																			</p>
-																		</div>
-																	</div>
-
-																</div>
-
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-xnfmlez elementor-position-left elementor-view-default elementor-invisible elementor-widget elementor-widget-themo-service-block"
-															data-id="xnfmlez" data-element_type="widget"
-															data-settings='{"_animation":"fadeInUp"}'
-															data-widget_type="themo-service-block.default">
-															<div class="elementor-widget-container">
-																<div class="th-service-block-w">
-																	<div
-																		class="elementor-icon-box-wrapper th-show-icon">
-																		<div
-																			class="elementor-icon-box-icon th-icon-size-sm">
-																			<span class="elementor-icon ">
-																				<i
-																					class="th-linea icon-ecommerce-sales"></i>
-																			</span>
-																		</div>
-																		<div class="elementor-icon-box-content">
-																			<h3 class="elementor-icon-box-title">
-																				<span>50% Discount</span>
-																			</h3>
-																			<p class="elementor-icon-box-description">
-																				Current stock lets us sell <a
-																					class="lar-automated-link"
-																					href="https://techmsx.com/intl/order2.php?prod=tacticairdrone&net=1347&aff=tad"
-																					924 rel="nofollow"
-																					target="_self">Tactic Air Drone</a>
-																				at a sweet discount. Buy now before the
-																				discount ends.
-																			</p>
-																		</div>
-																	</div>
-
-																</div>
-
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-60eb08d elementor-position-left elementor-view-default elementor-invisible elementor-widget elementor-widget-themo-service-block"
-															data-id="60eb08d" data-element_type="widget"
-															data-settings='{"_animation":"fadeInUp"}'
-															data-widget_type="themo-service-block.default">
-															<div class="elementor-widget-container">
-																<div class="th-service-block-w">
-																	<div
-																		class="elementor-icon-box-wrapper th-show-icon">
-																		<div
-																			class="elementor-icon-box-icon th-icon-size-sm">
-																			<span class="elementor-icon ">
-																				<i
-																					class="th-linea icon-basic-magnifier"></i>
-																			</span>
-																		</div>
-																		<div class="elementor-icon-box-content">
-																			<h3 class="elementor-icon-box-title">
-																				<span>Free Shipping</span>
-																			</h3>
-																			<p class="elementor-icon-box-description">
-																				Order online today and get free
-																				shipping&mdash;worldwide.
-
-																			</p>
-																		</div>
-																	</div>
-
-																</div>
-
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-e081404 elementor-position-left elementor-view-default elementor-invisible elementor-widget elementor-widget-themo-service-block"
-															data-id="e081404" data-element_type="widget"
-															data-settings='{"_animation":"fadeInUp"}'
-															data-widget_type="themo-service-block.default">
-															<div class="elementor-widget-container">
-																<div class="th-service-block-w">
-																	<div
-																		class="elementor-icon-box-wrapper th-show-icon">
-																		<div
-																			class="elementor-icon-box-icon th-icon-size-sm">
-																			<span class="elementor-icon ">
-																				<i
-																					class="th-linea icon-basic-magnifier"></i>
-																			</span>
-																		</div>
-																		<div class="elementor-icon-box-content">
-																			<h3 class="elementor-icon-box-title">
-																				<span>Fast Delivery</span>
-																			</h3>
-																			<p class="elementor-icon-box-description">
-																				We&rsquo;ll process your order so you
-																				don&rsquo;t have to wait as long.
-
-																			</p>
-																		</div>
-																	</div>
-
-																</div>
-
-															</div>
-														</div>
-													</div>
-												</div> -->
 											</div>
 										</div>
 									</div>
