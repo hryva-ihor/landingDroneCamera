@@ -9,3 +9,6 @@ let innerTimeLeft = document.getElementById ('my_timer').textContent.split (':')
     sessionStorage.setItem ('timeset', (innerTimeLeft [0] * 3600 + innerTimeLeft [1] * 60 + +innerTimeLeft [2]) * 1000);
     showTimeLess ();
 // timer end
+
+// let ChatBtn = document.querySelector('.purechat-launcher-wrapper')
+// console.log(ChatBtn);
