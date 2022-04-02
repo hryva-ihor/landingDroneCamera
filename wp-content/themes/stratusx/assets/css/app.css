@@ -5957,7 +5957,7 @@ span.dropcap {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-#scrollUp:before {content:"d"}
+#scrollUp:before {content:"Sus"}
 
 #scrollUp {
     width:50px;
@@ -5969,7 +5969,7 @@ span.dropcap {
     line-height:50px;
     text-align:center;
     text-decoration:none;
-    background-color:rgba(000,000,000,0.3);
+    background-color:rgba(000,000,000,0.8);
     opacity:0.6;
     border-radius:5px;
 }

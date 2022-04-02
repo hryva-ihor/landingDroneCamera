@@ -10,5 +10,10 @@ let innerTimeLeft = document.getElementById ('my_timer').textContent.split (':')
     showTimeLess ();
 // timer end
 
-// let ChatBtn = document.querySelector('.purechat-launcher-wrapper')
-// console.log(ChatBtn);
+
+
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     let ChatBtn = document.querySelector('#scrollUp')
+//     console.log(ChatBtn);
+// });
